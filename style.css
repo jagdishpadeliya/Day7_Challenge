@@ -1,0 +1,73 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-size: 15px;
+}
+.container{
+    border: 2px solid red;
+}
+.header{
+    width:500px;
+    padding-left: 200px;
+    margin:auto;
+    margin-top: 10px;
+}
+.header h2{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 100;
+    color: rgb(37, 35, 35);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header p{
+    width: 300px;
+}
+.header span{
+    margin-top: 1.4rem;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.658);
+}
+.footer{
+    margin-top: 30px;
+}
+.footer .first-row{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.box{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 12px 2px hsl(229, 6%, 66%);
+}
+.box-1{
+    position: absolute;
+    left: 200px;
+    top: 75px;
+    border-top: 3px solid hsl(180, 62%, 55%);
+
+}
+.box-2{
+    border-top: 3px solid hsl(0, 78%, 62%);
+
+}
+.box-3{
+    position: absolute;
+    right: 200px;
+    top: 75px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+
+}
+.box-4{
+    margin: auto;
+    margin-top: 30px !important;
+    border-top: 3px solid hsl(34, 97%, 64%);
+
+}
+img{
+    float: right;
+    height: 40px;
+    width: 40px;
+}
